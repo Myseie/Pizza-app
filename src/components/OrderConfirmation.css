@@ -1,0 +1,18 @@
+.order-confirmation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .order-confirmation h1 {
+    font-size: 2.5rem;
+    color: #4caf50;
+  }
+  
+  .order-confirmation p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }

@@ -1,0 +1,81 @@
+body {
+  background-image: url(https://t3.ftcdn.net/jpg/06/12/86/62/360_F_612866220_1VuIarMVLgoDAYUtBicQwXNKu07InXyf.jpg); /* Sätt en pizza-bild som bakgrund */
+  background-size: cover; /* Täck hela sidan */
+  background-position: center; /* Centrerad bakgrund */
+  background-attachment: fixed; /* Fixa bakgrunden vid scroll */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-align: center;
+}
+
+/* Rubrik och navbar */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Använd hela höjden på skärmen */
+  text-align: center;
+  
+}
+
+header h1 {
+  font-size: 4rem;
+  color: black; /* Svart textfärg */
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap; /* Anpassar layouten för mindre skärmar */
+  justify-content: center; /* Centrerar knapparna horisontellt */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #4caf50; /* Grön knappfärg */
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #388e3c; /* Mörkare grön vid hover */
+  transform: scale(1.1); 
+}
+
+/* Knappar */
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+footer {
+  background-color: #37ff37;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
